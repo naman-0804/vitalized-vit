@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+:root {
+  --primary:linear-gradient(#000,#e30b5c);
+  --secondary: #6d15df;
+}
+h1,h2,h3 {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  color: #000;
+  font-family: 'Poppins';
+  background: #fff;
+}
+nav {
+  background: var(--primary);
+  padding: 10px 20px;
+  text-align: center;
+}
+nav a {
+  color: #f2f2f2;
+  margin: 10px;
+  display: inline-block;
+}
+nav h1 {
+  color: #fff;
+}
+.page {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* smoothie grid */
+.smoothie-grid {
+  margin-top: 40px;
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  color:black;
+}
+.smoothie-card {
+  width: 100%;
+  padding: 10px;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 6px;
+  position: relative;
+  color:#fff;
+}
+.smoothie-card .rating {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: var(--secondary);
+  color: #000;
+  border-radius: 6px;
+  width: 40px;
+  height: 0;
+  padding: 20px 0;
+  line-height: 0px;
+  text-align: center;
+}
+
+/* forms */
+form {
+  background: #fff;
+  padding: 20px;
+  max-width: 480px;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+form input, form textarea {
+  display: block;
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin: 10px 0 20px 0;
+}
+form button {
+  background: var(--primary);
+  color: #000;
+  border: 0;
+  border-radius: 6px;
+  padding: 6px 8px;
+  font-family: "Poppins";
+  cursor: pointer;
+}
+.research-card .buttons {
+  text-align: right;
+}
+
+
+.research-card {
+  border: 2px solid grey;
+  padding: 10px;
+  margin: 10px;
+  width: 300px; /* Set the width */
+  height: auto; /* Set the height to auto or specify a fixed height */
+  box-sizing: border-box;
+  color:#000;
+  display:inline-block;
+
+}
+.Projectcard{
+  border: 2px solid grey;
+  padding: 10px;
+  margin: 10px;
+  width: 350px; /* Set the width */
+  height: auto; /* Set the height to auto or specify a fixed height */
+  box-sizing: border-box;
+  color:#000;
+  display:inline-block;
+}
+.login-box {
+  display: flex;
+  
+  align-items: center;
+  height: 4vh;
+}
+
+.login-box a {
+  margin: 0 10px;
+}
+.faculty-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  margin-right: 20px; 
+  
+  }
+  .Student-profile {
+    
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin-right: 20px; 
+    border:2px solid black;
+    width:500px;
+    text-align: left;
+  }
+  .info{
+    margin-left: 20px;
+  }
+  .cards{
+    display:flex;
+  }
+  
+  button{
+    background-color: #fe6d73;
+    color: white;
+    height: 45px;
+    width: 150px;
+    margin: 20px;
+    border-radius: 12px;
+  }
+
+  button:hover{
+    background-color: #ffcb77;
+    color: #fe6d73;
+    height:45px;
+    width: 150px;
+    border-radius: 12px;
+  }
